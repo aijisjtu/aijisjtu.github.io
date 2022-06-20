@@ -1,2 +1,2 @@
-# aijisjtu.github.io
+# aijiicpc.github.io
 blog via github
