@@ -1,2 +1,3 @@
 # aijiicpc.github.io
-blog via github
+focused on contest
+
