@@ -230,11 +230,11 @@ a:focus {
     /* rgba not supported (IE 8) */
     /* color: rgba(0, 0, 0, 0.80); rgba supported */
     /* *color: #444; IE 6 & 7 */
-    border: 1px solid #6384f9;
+    border: 1px solid #347ec8;
     /*IE 6/7/8*/
     border: none rgba(0, 0, 0, 0);
     /*IE9 + everything else*/
-    background-color: #93bfec;
+    background-color: #347ec8;
     border-radius: 1px;
     text-decoration: none;
     -webkit-font-smoothing: antialiased;
@@ -747,7 +747,7 @@ Forms Core
 }
 
 .melissa-skin-pure .melissa-table thead {
-    background-color: #858cf4;
+    background-color: #afc6ff;
     color: #142845;
     text-align: left;
     vertical-align: bottom;
@@ -760,8 +760,8 @@ even - #fff (white)
 odd - #edf5ff (light blue)
 */
 .melissa-skin-pure .melissa-table td {
-    background-color: #babff8;
-    color: #0a435d;
+    background-color: #8da0f5;
+    color: #021e82;
 }
 
 
@@ -777,7 +777,7 @@ odd - #edf5ff (light blue)
 
 /* BORDERED TABLES */
 .melissa-skin-pure .melissa-table-bordered td {
-    border-bottom: 1px solid #b5c4f8;
+    border-bottom: 1px solid #7e98f5;
 }
 
 .melissa-skin-pure .melissa-table-bordered tbody>tr:last-child td,
@@ -789,7 +789,7 @@ odd - #edf5ff (light blue)
 .melissa-skin-pure .melissa-table-horizontal td,
 .melissa-skin-pure .melissa-table-horizontal th {
     border-width: 0 0 1px 0;
-    border-bottom: 1px solid #b5c4f8;
+    border-bottom: 1px solid #7e98f5;
 }
 
 .melissa-skin-pure .melissa-table-horizontal tbody>tr:last-child td {
@@ -1008,12 +1008,12 @@ odd - #edf5ff (light blue)
 
 /* HOVER STATES */
 .melissa-skin-pure .melissa-menu li a:hover {
-    background: #465da3;
+    background: #445ead;
 }
 
 /* DISABLED STATES */
 .melissa-skin-pure .melissa-menu li.melissa-menu-disabled a:hover {
-    background: #d8eaf6;
+    background: #97cff4;
     color: #2374f7;
 }
 
@@ -1046,7 +1046,7 @@ odd - #edf5ff (light blue)
 /* FIXED MENU */
 .melissa-skin-pure .melissa-menu.melissa-menu-open.melissa-menu-fixed {
     border: none;
-    border-bottom: 1px solid #aac5f6;
+    border-bottom: 1px solid #7ea9fa;
 }
 
 /* end from YUICSS list.css ***********************************/
