@@ -770,13 +770,13 @@ odd - #edf5ff (light blue)
 }
 
 .melissa-skin-pure .melissa-table.stripped tr:nth-child(even) td {
-    background-color: #f7d4f7;
-    color: #4e0e4e;
+    background-color: #b5c4f8;
+    color:  #14506c;
 }
 
 /* BORDERED TABLES */
 .melissa-skin-pure .melissa-table-bordered td {
-    border-bottom: 1px solid #f7d4f7;
+    border-bottom: 1px solid  #b5c4f8;
 }
 
 .melissa-skin-pure .melissa-table-bordered tbody>tr:last-child td,
@@ -788,7 +788,7 @@ odd - #edf5ff (light blue)
 .melissa-skin-pure .melissa-table-horizontal td,
 .melissa-skin-pure .melissa-table-horizontal th {
     border-width: 0 0 1px 0;
-    border-bottom: 1px solid #f7d4f7;
+    border-bottom: 1px solid #b5c4f8;
 }
 
 .melissa-skin-pure .melissa-table-horizontal tbody>tr:last-child td {
@@ -965,7 +965,7 @@ odd - #edf5ff (light blue)
 
 .melissa-skin-pure .melissa-menu.melissa-menu-open,
 .melissa-skin-pure .melissa-menu.melissa-menu-horizontal li .melissa-menu-children {
-    background: #fbe9fb;
+    background: #d1e0ff;
 
     /* Old browsers */
     /* border-radius: {
@@ -975,7 +975,7 @@ odd - #edf5ff (light blue)
     } */
 
     ;
-    border: 1px solid #f7d4f7;
+    border: 1px solid #b5c4f8;
 }
 
 /* remove borders for horizontal menus */
@@ -996,24 +996,24 @@ odd - #edf5ff (light blue)
 
 .melissa-skin-pure .melissa-menu a,
 .melissa-skin-pure .melissa-menu .melissa-menu-can-have-children>li:after {
-    color: #6c146c;
+    color: #14446c;
 }
 
 .melissa-skin-pure .melissa-menu .melissa-menu-can-have-children>li:hover:after {
-    color: #4e0e4e;
+    color: #0e214e;
 }
 
 
 
 /* HOVER STATES */
 .melissa-skin-pure .melissa-menu li a:hover {
-    background: #f5c7f5;
+    background: #add2fa;
 }
 
 /* DISABLED STATES */
 .melissa-skin-pure .melissa-menu li.melissa-menu-disabled a:hover {
-    background: #fbe9fb;
-    color: #e675e6;
+    background: #bcdff7;
+    color: #bcdbf3;
 }
 
 .melissa-skin-pure .melissa-menu .melissa-menu-disabled>a {
@@ -1024,12 +1024,12 @@ odd - #edf5ff (light blue)
 
 .melissa-skin-pure .melissa-menu .melissa-menu-disabled>a,
 .melissa-skin-pure .melissa-menu .melissa-menu-can-have-children.melissa-menu-disabled>a:after {
-    color: #e675e6;
+    color: #75c4e6;
 }
 
 /* HEADINGS */
 .melissa-skin-pure .melissa-menu .melissa-menu-heading {
-    color: #340934;
+    color: #112a60;
     text-transform: uppercase;
     font-size: 90%;
     margin-top: 0.5em;
@@ -1038,14 +1038,14 @@ odd - #edf5ff (light blue)
 
 /* SELECTED MENU ITEM */
 .melissa-skin-pure .melissa-menu li.melissa-menu-selected a {
-    background-color: #800080;
-    color: #ffebff;
+    background-color: #003c80;
+    color: #bed4fe;
 }
 
 /* FIXED MENU */
 .melissa-skin-pure .melissa-menu.melissa-menu-open.melissa-menu-fixed {
     border: none;
-    border-bottom: 1px solid #f7d4f7;
+    border-bottom: 1px solid #bed4fe;
 }
 
 /* end from YUICSS list.css ***********************************/
