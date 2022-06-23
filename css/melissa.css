@@ -149,12 +149,12 @@ h6>span {
 }
 
 a {
-    color: #6C336C;
+    color: #220877;
     text-decoration: none;
 }
 
 a:visited {
-    color: #542854;
+    color: #1d0777;
 }
 
 .drop-shadow {
@@ -230,11 +230,11 @@ a:focus {
     /* rgba not supported (IE 8) */
     /* color: rgba(0, 0, 0, 0.80); rgba supported */
     /* *color: #444; IE 6 & 7 */
-    border: 1px solid #e981e9;
+    border: 1px solid #81b3e9;
     /*IE 6/7/8*/
     border: none rgba(0, 0, 0, 0);
     /*IE9 + everything else*/
-    background-color: #ec93ec;
+    background-color: #93bfec;
     border-radius: 1px;
     text-decoration: none;
     -webkit-font-smoothing: antialiased;
@@ -296,7 +296,7 @@ a:focus {
 .melissa-button-selected,
 a.melissa-button-primary,
 a.melissa-button-selected {
-    background-color: #800080;
+    background-color: #005180;
     color: #fffaff;
 }
 
@@ -570,14 +570,14 @@ Forms Core
 .melissa-skin-pure .melissa-form input:focus:invalid,
 .melissa-skin-pure .melissa-form textarea:focus:invalid,
 .melissa-skin-pure .melissa-form select:focus:invalid {
-    color: #b94a48;
-    border: 1px solid #ee5f5b;
+    color: #485fb9;
+    border: 1px solid #5b93ee;
 }
 
 .melissa-skin-pure .melissa-form input:focus:invalid:focus,
 .melissa-skin-pure .melissa-form textarea:focus:invalid:focus,
 .melissa-skin-pure .melissa-form select:focus:invalid:focus {
-    border-color: #e9322d;
+    border-color: #2d56e9;
 }
 
 .melissa-skin-pure .melissa-form select {
@@ -718,7 +718,7 @@ Forms Core
     border-collapse: separate;
     border-spacing: 0;
     empty-cells: show;
-    border: 1px solid #f7d4f7;
+    border: 1px solid #b8dbfdf7;
 }
 
 .melissa-skin-pure .melissa-table caption {
@@ -730,7 +730,7 @@ Forms Core
 
 .melissa-skin-pure .melissa-table td,
 .melissa-skin-pure .melissa-table th {
-    border-left: 1px solid #f7d4f7;
+    border-left: 1px solid #b8dbfdf7;
     /* inner column border */
     border-width: 0 0 0 1px;
     font-size: inherit;
@@ -748,7 +748,7 @@ Forms Core
 
 .melissa-skin-pure .melissa-table thead {
     background-color: #f3baf3;
-    color: #410b41;
+    color: #102e5c;
     text-align: left;
     vertical-align: bottom;
     white-space: nowrap;
@@ -760,13 +760,13 @@ even - #fff (white)
 odd - #edf5ff (light blue)
 */
 .melissa-skin-pure .melissa-table td {
-    background-color: #fbe9fb;
-    color: #6c146c;
+    background-color: #b5c4f8;
+    color: #14506c;
 }
 
 .melissa-skin-pure .melissa-table-odd td {
-    background-color: #f7d4f7;
-    color: #4e0e4e;
+    background-color: #b5c4f8;
+    color: #14506c;
 }
 
 .melissa-skin-pure .melissa-table.stripped tr:nth-child(even) td {
