@@ -730,7 +730,7 @@
 
     .melissa-skin-pure .melissa-table td,
     .melissa-skin-pure .melissa-table th {
-        border-left: 1px solid #b8dbfdf7;
+        border-left: 1px solid#b8dbfdf7;
         /* inner column border */
         border-width: 0 0 0 1px;
         font-size: inherit;
@@ -761,23 +761,23 @@
     */
     .melissa-skin-pure .melissa-table td {
         background-color: #8dbef5;
-        color: #021e82;
+        color: #021e6c;
     }
 
 
     .melissa-skin-pure .melissa-table-odd td {
-        background-color: #6283fc;
-        color: #142e6c;
+        background-color: #6283f7;
+        color: #142e4e;
     }
 
     .melissa-skin-pure .melissa-table.stripped tr:nth-child(even) td {
-        background-color: #6283fc;
-        color: #142e6c;
+        background-color: #6283f7;
+        color: #142e4e;
     }
 
     /* BORDERED TABLES */
     .melissa-skin-pure .melissa-table-bordered td {
-        border-bottom: 1px solid #6283fc;
+        border-bottom: 1px solid #6283f7;
     }
 
     .melissa-skin-pure .melissa-table-bordered tbody>tr:last-child td,
@@ -789,7 +789,7 @@
     .melissa-skin-pure .melissa-table-horizontal td,
     .melissa-skin-pure .melissa-table-horizontal th {
         border-width: 0 0 1px 0;
-        border-bottom: 1px solid #6283fc;
+        border-bottom: 1px solid #6283f7;
     }
 
     .melissa-skin-pure .melissa-table-horizontal tbody>tr:last-child td {
@@ -966,7 +966,7 @@
 
     .melissa-skin-pure .melissa-menu.melissa-menu-open,
     .melissa-skin-pure .melissa-menu.melissa-menu-horizontal li .melissa-menu-children {
-        background: #6283fc;
+        background: #f9fbfb;
 
         /* Old browsers */
         /* border-radius: {
@@ -976,7 +976,7 @@
         } */
 
         ;
-        border: 1px solid #26e8f2;
+        border: 1px solid #c7d4f7;
     }
 
     /* remove borders for horizontal menus */
@@ -997,7 +997,7 @@
 
     .melissa-skin-pure .melissa-menu a,
     .melissa-skin-pure .melissa-menu .melissa-menu-can-have-children>li:after {
-        color: #28316c;
+        color: #28146c;
     }
 
     .melissa-skin-pure .melissa-menu .melissa-menu-can-have-children>li:hover:after {
@@ -1008,12 +1008,12 @@
 
     /* HOVER STATES */
     .melissa-skin-pure .melissa-menu li a:hover {
-        background: #90d4f4;
+        background: #90a2f5;
     }
 
     /* DISABLED STATES */
     .melissa-skin-pure .melissa-menu li.melissa-menu-disabled a:hover {
-        background: #b7caf4;
+        background: #b7cafb;
         color: #2374e6;
     }
 
