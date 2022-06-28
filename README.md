@@ -1,2 +1,1 @@
-# aijisjtu.github.io
-
+# personal web
