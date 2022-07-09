@@ -1,45 +1,21 @@
-class MobileNavbar{
-    constructor(mobileMenu, navList, navLinks) {
-        this.mobileMenu = document.querySelector(mobileMenu);
-        this.navList = document.querySelector(navList);
-        this.navLinks = document.querySelectorAll(navLinks);
-        this.activeClass = "active";
-    
-        this.handleClick = this.handleClick.bind(this);
-      }
+const loadText = document.querySelector('.loading-text')
+const bg = document.querySelector('.bg')
 
-    animateLinks(){
-        this.navLinks.forEach((link,index) => {
-            link.style.animation
-            ? (link.style.animation = "")
-            : (link.style.animation = `navLinkFade 0.5s ease forwards ${
-                index / 7 + 0.3
-            }s`);
-        });
+let load = 0
+
+let int = setInterval(blurring, 30)
+
+function blurring() {
+    load++
+    if (load > 99) {
+        clearInterval(int)
     }
 
-    handleClick(){
-        this.navList.classList.toggle(this.activeClass);
-        this.mobileMenu.classList.toggle(this.activeClass);
-        this.animateLinks();
-    }
-
-    addClcikEvent(){
-        this.mobileMenu.addEventListener("click" ,this.handleClick)
-    }
-
-    init(){
-        if(this.mobileMenu){
-            this.addClcikEvent();
-        }
-        return this;
-    }
+    loadText.innerText = `${load}%`
+    loadText.style.opacity = scale(load, 0, 100, 1, 0);
+    bg.style.filter = `blur(${scale(load, 0, 100, 30, 0)}px)`
 }
 
-const mobileNavbar = new MobileNavbar(
-    ".mobile-menu",
-    ".nav-list",
-    ".nav-list li",
-);
-
-mobileNavbar.init();
+const scale = (num, in_min, in_max, out_min, out_max) => {
+    return ((num - in_min) * (out_max - out_min)) / (in_max - in_min) + out_min
+}
