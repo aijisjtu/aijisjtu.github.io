@@ -1,21 +1,50 @@
-const loadText = document.querySelector('.loading-text')
-const bg = document.querySelector('.bg')
 
-let load = 0
+//above is blur loading part
+//below is original code 
 
-let int = setInterval(blurring, 30)
+class MobileNavbar {
+    constructor(mobileMenu, navList, navLinks) {
+        this.mobileMenu = document.querySelector(mobileMenu);
+        this.navList = document.querySelector(navList);
+        this.navLinks = document.querySelectorAll(navLinks);
+        this.activeClass = "active";
 
-function blurring() {
-    load++
-    if (load > 99) {
-        clearInterval(int)
+        this.handleClick = this.handleClick.bind(this);
     }
 
-    loadText.innerText = `${load}%`
-    loadText.style.opacity = scale(load, 0, 100, 1, 0);
-    bg.style.filter = `blur(${scale(load, 0, 100, 30, 0)}px)`
+    animateLinks() {
+        this.navLinks.forEach((link, index) => {
+            link.style.animation
+                ? (link.style.animation = "")
+                : (link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3
+                    }s`);
+        });
+    }
+
+    handleClick() {
+        this.navList.classList.toggle(this.activeClass);
+        this.mobileMenu.classList.toggle(this.activeClass);
+        this.animateLinks();
+    }
+
+    addClcikEvent() {
+        this.mobileMenu.addEventListener("click", this.handleClick)
+    }
+
+    init() {
+        if (this.mobileMenu) {
+            this.addClcikEvent();
+        }
+        return this;
+    }
 }
 
-const scale = (num, in_min, in_max, out_min, out_max) => {
-    return ((num - in_min) * (out_max - out_min)) / (in_max - in_min) + out_min
-}
+const mobileNavbar = new MobileNavbar(
+    ".mobile-menu",
+    ".nav-list",
+    ".nav-list li",
+);
+
+mobileNavbar.init();
+
+
